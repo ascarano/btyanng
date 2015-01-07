@@ -20,6 +20,11 @@ source 'https://rubygems.org'
   # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
   gem 'jbuilder', '~> 2.0'
 
+  gem 'figaro'
+
+  gem 'faraday', '~> 0.9.0'
+
+  gem 'marvelite'
 
   gem 'bootstrap-sass', '~> 3.3.1'
 
