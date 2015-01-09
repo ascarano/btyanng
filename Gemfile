@@ -26,6 +26,10 @@ source 'https://rubygems.org'
 
   gem 'marvelite'
 
+  gem 'bootswatch-rails'
+
+  gem 'kaminari'
+
   gem 'bootstrap-sass', '~> 3.3.1'
 
   gem 'autoprefixer-rails'
