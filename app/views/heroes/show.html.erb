@@ -20,7 +20,12 @@
 
       <div class="col-md-4">
         <h3>Project Description</h3>
-        <p><%= @character['data']['results'][0]['description'] %></p>
+        <p><%= @character['data']['results'][0]['urls'][1] %></p>
+        <p><%= @character['data']['results'][0]['id'] %></p>
+        <%= @hero.marvel_id.to_s %>
+        <p>
+          <%= @comics %>
+        </p>
         <h3>Project Details</h3>
         <ul>
           <li>Lorem Ipsum</li>
