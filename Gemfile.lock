@@ -182,6 +182,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   marvelite
+  nokogiri (~> 1.6.5)
   pg
   rails (= 4.2.0)
   sass-rails (~> 5.0)

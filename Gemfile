@@ -26,6 +26,8 @@ source 'https://rubygems.org'
 
   gem 'marvelite'
 
+  gem 'nokogiri', '~> 1.6.5'
+
   gem 'bootswatch-rails'
 
   gem 'kaminari'
