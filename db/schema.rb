@@ -11,16 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150107220206) do
+ActiveRecord::Schema.define(version: 20150113230419) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "comics", force: :cascade do |t|
+    t.string   "comic_data"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "heroes", force: :cascade do |t|
     t.string   "marvel_id"
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "marvel_data"
   end
 
 end
